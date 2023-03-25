@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/quasar@2.6.5/dist/quasar.prod.css" type="text/css">
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/loadash.min.js"></script>
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="https://unpkg.com/vuex@4.0.2/dist/vuex.global.js"></script>
+    <script src="https://unpkg.com/vue-router@4.0.5/dist/vue-router.global.js"></script>
+    <script src="https://unpkg.com/vue-demi"></script>
+    <script src="https://unpkg.com/pinia"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+      [v-cloak]{
+        display: none;
+      }
+    </style>
+    <link rel="stylesheet" href="./src/assets/css/main.css">
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div v-cloak id="app">
+      <router-view></router-view>
+    </div>
+
+    <!-- Quasar Imports -->
+    <script src="https://cdn.jsdelivr.net/npm/quasar@2.6.5/dist/quasar.umd.prod.js"></script>
+
+    <!-- App Config -->
+    <script src="./main.js"></script>
+  </body>
+</html>

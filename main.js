@@ -14,6 +14,8 @@ const { defineStore, createPinia, storeToRefs } = Pinia;
 
 const app = Vue.createApp();
 
+const _layout = ['./src/layout/layout-view.js'];
+
 const _views = ['./src/homeView.js'];
 
 const _router = ['./src/routes/index.js'];
@@ -21,7 +23,7 @@ const _router = ['./src/routes/index.js'];
 /**
  * @type {string[][]}
  */
-const loader = [_views, _router];
+const loader = [_layout, _views, _router];
 
 const bootstrap = async () => {
   for (const item of loader) {

@@ -3,6 +3,11 @@ const routes = [
     path: '/',
     component: homeView,
     name: 'Home'
+  },
+  {
+    path: '/',
+    component: loginView,
+    name: 'Login'
   }
 ]
 

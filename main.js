@@ -16,7 +16,7 @@ const app = Vue.createApp();
 
 const _layout = ['./src/layout/layout-view.js'];
 
-const _views = ['./src/homeView.js'];
+const _views = ['./src/homeView.js', './src/views/loginView.js'];
 
 const _router = ['./src/routes/index.js'];
 
